@@ -17,4 +17,7 @@ let products = [
 ];
 
 // print the object having name is equals to 'table'
+
+console.log(products.find(item => item.name === 'sajjad').unitPrice);
+
 // Hint: You can use products.find method for further info google this function
