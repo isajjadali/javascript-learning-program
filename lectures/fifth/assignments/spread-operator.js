@@ -1,0 +1,1 @@
+// Create any example of passing arguments to a function by using spread operator

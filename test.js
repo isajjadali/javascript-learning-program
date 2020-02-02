@@ -1,4 +1,91 @@
 
+function sum(...rest) {
+    return rest[0] + rest[1] + rest[2] + rest[3];
+}
+
+let array = [1, 2, 3, 4];
+
+console.log(sum(...array));
+
+
+
+// function sum(x, y, z) {
+//     return x + y + z;
+// }
+
+// let array = [1, 2, 3, 4];
+
+// console.log(sum(...array));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let users = [
+//     {
+//         name: 'sajjad',
+//         age: 24,
+//     }, {
+//         name: 'taimoor',
+//         age: 25,
+//     }, {
+//         name: 'naqi',
+//         age: 23,
+//     }
+// ];
+
+// console.log(users.map(({ name, age }) => ({ name, age: age * 2 })));
 
 
 

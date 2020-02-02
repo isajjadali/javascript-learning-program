@@ -5,12 +5,21 @@ let user = {
     fName: 'Sajjad',
     lName: 'Ali',
     getFullName: function () {
+        this
         return 'User Name: ' + this.fName + ' ' + this.lName;
     }
 }
 
+let user2 = {
+    fName: 'hamza',
+    lName: 'Ali',
+    getFullName: function () {
+        return 'User Name: ' + this.fName + ' ' + this.lName;
+    }
+}
 
 console.log(user.getFullName());   // print `User Name: Sajjad Ali`
+console.log(user2.getFullName());   // print `User Name: Sajjad Ali`
 
 // Because normal function here is called by the refrence of user.
 
