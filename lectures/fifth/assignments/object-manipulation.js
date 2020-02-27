@@ -58,6 +58,27 @@ let users = [
 ];
 
 
+let users2 = users.map(user => {
+    return {  
+        name: `${user.name.firstName} ${user.name.lastName}`,
+        age: user.age.value,
+        dateOfBirth: user.age.dateOfBirth.year + ' ' + user.age.dateOfBirth.month + ' ' + user.age.dateOfBirth.date,
+        subjects: user.subjects.map(subject => {
+            return {
+                subjectName: Object.keys(subject)[0],
+                score: Object.values(subject)[0],
+            }
+        })
+    }
+});
+
+
+console.log('--------------------------------------->>>>>');
+console.log(JSON.stringify(users2,null,2));
+console.log('--------------------------------------->>>>>');
+
+
+
 // Output should be like this
 // [
 //     {
