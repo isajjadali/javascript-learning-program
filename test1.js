@@ -1,7 +1,6 @@
 // 1. Make Objects of Students and Teachers using classes.
 // 2. Make an array which consist of number of objects of students and teachers.
 // 3. Make a closure function that seperate students and teachers from given array and return another function.
-// 4. Make the uper function that return Promise instead of function;.
 // 5. Now call the fuction that modifies the given array of objects.
 // 6. Now you have to Teachers and a list of thier students. and tell how many student passed and failed.
 
@@ -103,8 +102,10 @@
 //                     thursday: 92,
 //                     friday: 78,
 //                 },
+//                 attendenceAverage: 80
 //                 marks: 90,
 //                 classParticipation: 60,
+//                 progress: ''
 //             }, 
 //             teacherId: 1,
 //         },

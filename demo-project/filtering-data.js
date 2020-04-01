@@ -13,8 +13,6 @@ function filteringData(array) {
     });
 
     return (type = 'teacher') => obj[type] && obj[type] || [];
-
 }
-
 
 module.exports = filteringData;
