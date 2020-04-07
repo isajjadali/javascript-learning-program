@@ -5,33 +5,6 @@
 // 6. Now you have to Teachers and a list of thier students. and tell how many student passed and failed.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Teacher
 
 // {
@@ -49,30 +22,6 @@
 //         city: 'lahore',
 //     }
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Student
